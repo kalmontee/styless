@@ -22,6 +22,7 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
         width: 960px;
         margin: 0 auto;
         overflow: auto;
+        min-height: 100vh;
     }
     /*main-content for Index, Portfolio, Contact */
     
@@ -316,6 +317,7 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
         }
         footer {
             position: sticky;
+            bottom: 0;
             display: block;
         }
     }
