@@ -141,74 +141,38 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
     /********************Portfolio*****************/
     
     .portfolio-work {
-        /* width: 50%; */
-        /* display: flex; */
-        /* justify-content: space-between; */
         overflow: auto;
     }
-    
-    .inner-container {
-        /* width: 90%; */
-    }
-    /* .images-container img {
-    width: 200px;
-    padding: 10px;
-    height: 200px;
-    border: none;
-    opacity: 0.5;
-} */
     
     div.work img {
         width: 200px;
         height: 200px;
-        padding: 10px;
-        border: none;
-    }
-    
-    div.work {
-        width: 35%;
-        float: left;
+        border: 0 none;
     }
     
     img:hover {
         opacity: 1.0;
     }
     
+    div.work {
+        padding-bottom: 10px;
+        width: 350px;
+        float: left;
+        overflow: auto;
+        position: relative;
+    }
+    
     .heading-project-title {
-        position: absolute;
         background-color: #4aaaa5;
         color: white;
         text-align: center;
-        width: 199px;
+        width: 49%;
         font-size: 15px;
-        margin: 0;
-        padding: 10px 1px;
+        margin-bottom: 0;
+        bottom: 20px;
+        padding: 15px;
         font-weight: normal;
-    }
-    
-    .baseball-game {
-        top: 386px;
-        right: 1009px;
-    }
-    
-    .office-img {
-        top: 386px;
-        right: 687px;
-    }
-    
-    .dog {
-        top: 608px;
-        right: 1009px;
-    }
-    
-    .ninja {
-        top: 832px;
-        right: 1009px;
-    }
-    
-    .nightlife {
-        top: 608px;
-        right: 687px;
+        position: absolute;
     }
     /********************Footer*******************/
     
