@@ -180,6 +180,7 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
         text-align: center;
         background-color: #666666;
         position: sticky;
+        bottom: 0;
         font-size: 13px;
         color: rgb(179, 179, 179);
         padding: 15px;
@@ -213,13 +214,8 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
         .heading-project-title {
             width: 73%;
         }
-        footer {
-            text-align: center;
-            height: auto;
-            overflow: auto;
-            display: block;
-        }
     }
+    /************768px media query*************/
     
     @media only screen and (max-width: 768px) {
         header {
@@ -227,35 +223,20 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
             display: block;
         }
         .header-container {
-            width: 90%;
-            align-items: center;
-            /* display: flex; */
-            /* justify-content: space-between; */
+            width: 93%;
         }
         nav {
-            height: auto;
-            width: 45%;
-            text-align: center;
-            display: block;
-        }
-        nav ul li a {}
-        section {
-            background-color: rgb(238, 238, 238);
-            height: 90vh;
+            width: auto;
+            /* display: block; */
         }
         .container {
             width: 100%;
         }
         .main-content {
-            /* margin: 30px; */
-        }
-        footer {
-            text-align: center;
-            height: auto;
-            overflow: auto;
-            display: block;
+            width: auto;
         }
     }
+    /**************640px media query****************/
     
     @media only screen and (max-width: 640px) {
         header {
