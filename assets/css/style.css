@@ -187,21 +187,31 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
     }
     
     @media only screen and (max-width: 980px) {
-        header {}
-        nav {
-            /* width: 50%; */
+        header {
+            display: block;
         }
         .header-container {
-            /* width: 80%; */
+            /* margin: 0; */
+            width: 93%;
         }
-        #branding {
-            margin-left: 20px;
+        .container {
+            width: 100%;
         }
         .main-content {
-            /* margin: 10px; */
+            margin: 30px;
             width: 600px;
             height: auto;
-            margin-left: 20px;
+        }
+        /**Portfolio Section**/
+        div.work {
+            width: 300px;
+        }
+        div.work img {
+            width: 250px;
+            height: 250px;
+        }
+        .heading-project-title {
+            width: 73%;
         }
         footer {
             text-align: center;
@@ -223,7 +233,6 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
             /* justify-content: space-between; */
         }
         nav {
-            /* display: none; */
             height: auto;
             width: 45%;
             text-align: center;
@@ -235,7 +244,6 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
             height: 90vh;
         }
         .container {
-            /* margin: 0; */
             width: 100%;
         }
         .main-content {
