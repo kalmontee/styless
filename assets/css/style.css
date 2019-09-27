@@ -271,7 +271,6 @@ footer {
         position: static;
         height: auto;
         width: 100%;
-        /* text-align: center; */
     }
     .header-container {
         width: 100%;
@@ -297,6 +296,9 @@ footer {
     }
     .main-content {
         width: auto;
+    }
+    div.img {
+        text-align: center;
     }
     #profile-pic {
         width: 230px;
