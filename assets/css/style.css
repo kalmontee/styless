@@ -243,6 +243,7 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
             position: static;
             height: auto;
             width: 100%;
+            /* text-align: center; */
         }
         .header-container {
             width: 100%;
@@ -258,9 +259,13 @@ This CSS file is being combined with the three HTML file. Contact, Index, Portfo
             width: 100%;
             height: 0 auto;
         }
+        nav {
+            margin-right: 40px;
+        }
         nav ul {
             display: flex;
             flex-flow: row;
+            text-align: center;
         }
         .main-content {
             /* margin: 10px; */
