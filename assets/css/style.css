@@ -120,11 +120,39 @@ a:hover {
     width: 150px;
     float: left;
     margin-right: 10px;
+    animation-name: info-img;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    opacity: -1;
 }
 
 div.info {
     color: #777777;
     line-height: 2em;
+    animation-name: info;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: -1;
+}
+
+@keyframes info-img {
+    0% {
+        opacity: -1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes info {
+    0% {
+        opacity: -1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
@@ -227,16 +255,19 @@ footer {
         width: 600px;
         height: auto;
     }
+    section {
+        background-color: #e6e6e6;
+    }
     /**Portfolio Section**/
     div.work {
         width: 300px;
     }
     div.work img {
-        width: 250px;
-        height: 250px;
+        width: 270px;
+        height: 270px;
     }
     .heading-project-title {
-        width: 73%;
+        width: 80%;
     }
 }
 
@@ -304,12 +335,10 @@ footer {
         width: 230px;
         float: none;
     }
-    .work img {
-        width: 300px;
-        height: 300px;
-        border: 0 none;
-    }
     .heading-project-title {
-        width: 73%;
+        width: 80%;
+    }
+    section {
+        background-color: #616161;
     }
 }
